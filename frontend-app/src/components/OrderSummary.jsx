@@ -25,6 +25,7 @@ const OrderWrap = styled.div`
   /* Presentation */
 `;
 
+// TODO: Pass in props
 const OrderSummary = (props) => {
   // TODO: initialize dummy state
   const [propState, setPropState] = useState(props);
