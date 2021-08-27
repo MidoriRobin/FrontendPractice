@@ -1,5 +1,22 @@
+:root {
+  /* Colors */
+  --primary-blue-pale: hsl(225, 100%, 94%);
+  --primary-blue-bright: hsl(245, 75%, 52%);
+
+  --neutral-blue-vpale: hsl(225, 100%, 98%);
+  --neutral-blue-desatur: hsl(224, 23%, 55%);
+  --neutral-blue-dark: hsl(223, 47%, 23%);
+
+  /* Typography */
+  --font-size: 16px;
+  --font-family: (https://fonts.google.com/specimen/Red+Hat+Display);
+  --font-weight-1: 500;
+  --font-weight-2: 700;
+  --font-weight-3: 900;
+}
+
 html {
-  font-size: 30px;
+  font-size: var(--font-size);
 }
 
 body {
