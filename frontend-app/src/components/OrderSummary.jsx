@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import Card from "./Card";
 
 const OrderWrap = styled.div`
-  /* TODO: Add background image */
   /* Layout */
   display: flex;
   max-width: 90%;
@@ -16,11 +15,6 @@ const OrderWrap = styled.div`
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
-
-  /* TODO: Complete Responsiveness */
-  @media (min-width: 1440px) {
-    max-width: 1170px;
-  }
 
   /* Presentation */
 `;
