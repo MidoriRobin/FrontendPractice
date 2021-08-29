@@ -33,6 +33,9 @@ const Main = styled.div`
 
   /* Media queries */
   @media (min-width: 1440px) {
+    grid-template-rows: 11.5rem 16rem 9rem;
+    height: 36.5rem;
+    width: 24rem;
   }
 `;
 
@@ -44,12 +47,17 @@ const BannerCont = styled.div`
 
   /* Presentation */
   /* border: 1px solid black; */
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 
   svg {
     display: inline-block;
     position: relative;
+  }
+
+  /* Media queries */
+  @media (min-width: 1440px) {
+    width: 24rem;
   }
 `;
 
@@ -57,8 +65,8 @@ const DetailsCont = styled.div`
   /* Layout */
   display: flex;
   flex-flow: column nowrap;
-  padding-left: 1.7rem;
-  padding-right: 1.7rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   justify-content: center;
 
   /* Presentation */
@@ -108,6 +116,10 @@ const MoreInfo = styled.div`
     color: var(--primary-blue-bright);
     font-size: 0.8rem;
     font-weight: var(--font-weight-2);
+
+    :hover {
+      opacity: 0.8;
+    }
   }
 `;
 
@@ -117,9 +129,9 @@ const ButtonCont = styled.div`
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+  width: inherit;
 
   /* Presentation */
-  overflow: auto;
 `;
 
 const Card = (props) => {
@@ -150,8 +162,8 @@ const Card = (props) => {
         </MoreInfo>
       </DetailsCont>
       <ButtonCont className="btn-cont">
-        <Button forward text="Proceed to Payment" />
-        <Button forward={false} text="Cancel Order" />
+        <Button width="80%" forward text="Proceed to Payment" />
+        <Button width="80%" forward={false} text="Cancel Order" />
       </ButtonCont>
     </Main>
   );

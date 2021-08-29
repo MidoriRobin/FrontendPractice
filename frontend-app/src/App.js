@@ -1,7 +1,7 @@
 import "./App.css";
-import OrderSummary from "./components/OrderSummary";
 import React from "react";
 import styled from "@emotion/styled";
+import OrderSummary from "./components/OrderSummary";
 import bgMobile from "./images/pattern-background-mobile.svg";
 import bgDesktop from "./images/pattern-background-desktop.svg";
 
@@ -14,11 +14,13 @@ const AppWrapper = styled.div`
   /* Presentation */
   background-image: url(${bgMobile});
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100rem;
+  background-color: var(--primary-blue-pale);
 
-  /* TODO: Complete Responsiveness */
   @media (min-width: 1440px) {
     background-image: url(${bgDesktop});
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 `;
 
