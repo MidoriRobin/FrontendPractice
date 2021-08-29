@@ -151,8 +151,8 @@ const Card = (props) => {
         <p className="card-desc">
           {props.desc
             ? props.desc
-            : "You can now listen to millions of songs, audiobooks, and podcasts on any \
-              device anywhere you like!"}
+            : "You can now listen to millions of songs, audiobooks, and podcasts on any" +
+              "device anywhere you like!"}
         </p>
         <MoreInfo className="info-cont">
           <img src="icon-music.svg" alt="music icon" />

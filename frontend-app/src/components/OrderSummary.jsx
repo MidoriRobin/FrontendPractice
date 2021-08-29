@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import React, { useState } from "react";
+import React from "react";
 import Card from "./Card";
 
 const OrderWrap = styled.div`
@@ -20,7 +20,7 @@ const OrderWrap = styled.div`
 `;
 
 const OrderSummary = (props) => {
-  const [propState, setPropState] = useState(props);
+  // const [propState, setPropState] = useState(props);
 
   return (
     <OrderWrap className="order-wrapper">
