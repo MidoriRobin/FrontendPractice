@@ -24,10 +24,31 @@ const AppWrapper = styled.div`
   }
 `;
 
+const Footer = styled.div``;
+
 function App() {
   return (
     <AppWrapper className="app-wrapper">
       <OrderSummary />
+      <Footer>
+        Challenge by{" "}
+        <a
+          href="https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Frontend Mentor
+        </a>
+        . Coded by{" "}
+        <a
+          href="https://www.frontendmentor.io/profile/MidoriRobin"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Christopher Robinson
+        </a>
+        .
+      </Footer>
     </AppWrapper>
   );
 }

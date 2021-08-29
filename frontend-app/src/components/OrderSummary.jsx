@@ -6,7 +6,7 @@ const OrderWrap = styled.div`
   /* Layout */
   display: flex;
   max-width: 90%;
-  height: 100vh;
+  height: 97vh;
 
   align-items: center;
   justify-content: center;

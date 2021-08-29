@@ -109,6 +109,10 @@ const MoreInfo = styled.div`
     margin: 0;
     text-align: start;
     margin-right: 4rem;
+
+    @media (min-width: 1440px) {
+      margin-right: 6rem;
+    }
   }
 
   a {
