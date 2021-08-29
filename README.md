@@ -6,7 +6,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -25,15 +25,19 @@ Users should be able to:
 
 - See hover states for interactive elements
 
-### Screenshot
+### Screenshots
 
-![Mobile](./screenshots/Screenshot-Mobile.jpg)
-![Desktop](./screenshots/Screenshot-Desktop.jpg)
+#### Mobile
+![Mobile](https://github.com/MidoriRobin/FrontendPractice/blob/order-summary-component/screenshots/Screenshot-Mobile.png)
+
+#### Desktop
+![Desktop](https://github.com/MidoriRobin/FrontendPractice/blob/order-summary-component/screenshots/Screenshot-Desktop.png)
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/react-js-order-component--2zTfdTsU)
-- Live Site URL: [Add live site URL here](https://frontend-practice-ad6bpum33-midorirobin.vercel.app/)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/react-js-order-component--2zTfdTsU)
+- Live Site URL: [Live Site URL](https://frontend-practice-ad6bpum33-midorirobin.vercel.app/)
 
 ## My process
 
